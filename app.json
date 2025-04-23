@@ -8,19 +8,17 @@
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
+    "runtimeVersion": "1.0.0",
     "ios": {
       "supportsTablet": true,
-      "runtimeVersion": {
-        "policy": "appVersion"
-      }
+      "bundleIdentifier": "com.gecezeeshan.PixelForge"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.gecezeeshan.PixelForge",
-      "runtimeVersion": "1.0.0"
+      "package": "com.gecezeeshan.PixelForge"
     },
     "web": {
       "bundler": "metro",
@@ -51,8 +49,8 @@
       }
     },
     "updates": {
-      "url": "https://u.expo.dev/d62190fb-7e50-4b01-aa77-006f0978bc5e"
-      ,  "fallbackToCacheTimeout": 0
+      "url": "https://u.expo.dev/d62190fb-7e50-4b01-aa77-006f0978bc5e",
+      "fallbackToCacheTimeout": 0
     }
   }
 }
