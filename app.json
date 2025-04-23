@@ -9,14 +9,18 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "runtimeVersion": {
+        "policy": "appVersion"
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.gecezeeshan.PixelForge"
+      "package": "com.gecezeeshan.PixelForge",
+      "runtimeVersion": "1.0.0"
     },
     "web": {
       "bundler": "metro",
@@ -45,6 +49,10 @@
       "eas": {
         "projectId": "d62190fb-7e50-4b01-aa77-006f0978bc5e"
       }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/d62190fb-7e50-4b01-aa77-006f0978bc5e"
+      ,  "fallbackToCacheTimeout": 0
     }
   }
 }
